@@ -1,0 +1,74 @@
+:root {
+    --peach: #FFC2B4;
+    --darkpeach: #FF8882;
+    --teal: #9DBEB9;
+    --darkteal: #194350;
+    --sand: #f0eeeb;
+}
+
+.hobby {
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+}
+
+.hobby-table {
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.hobby-table th {
+    color: var(--darkteal);
+    font-size: large;
+    padding: 20px;
+}
+
+.hobby-table img {
+    margin: 5px;
+}
+
+.hobby-table tr {
+    margin: 40px;
+    background-color: white;
+    border: 20px solid var(--sand);
+}
+    
+
+.hobby-table td {
+    padding: 20px;
+    margin: 30px !important;
+    /* background-color: white; */
+}
+
+.text-right {
+    padding-top: 15%;
+    float: right;
+    font-size: 30px;
+    color: var(--darkteal);
+}
+
+.text-left {
+    padding-top: 15%;
+    float: left;
+    font-size: 30px;
+    color: var(--darkpeach);
+}
+
+.more {
+    clear: both !important;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/512/512142.png');
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+aside {
+    /* background-color: var(--darkteal); */
+    height: 100%;
+}

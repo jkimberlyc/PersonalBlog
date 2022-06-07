@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+    --peach: #c5d1d0;
+    --darkpeach: #FF8882;
+    --teal: #9DBEB9;
+    --darkteal: #194350;
+    --sand: #f0eeeb;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--sand);
+    /* text-align: center; */
+}
+
+.profile {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-table {
+    /* text-align: center; */
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    width: 1100px;
+}
+
+.profile-table td {
+    padding: 20px;
+}
+
+.about-large {
+    font-size: 45px;
+    color: var(--darkteal);
+}
+
+.about-large p, .about-small p {
+    margin: 0 !important;
+}
+
+.about-small {
+    font-size: 15px;
+    color: gray;
+}
+
+.profile-left {
+    /* float: right; */
+    text-align: right;
+    margin: 0;
+    /* background-color: white;
+    background-image: url(me.jpg);
+    background-size: contain; */
+}
+
+.profile-right {
+    background-color: var(--sand);
+    padding-left: -30px !important;
+    /* padding: 30px !important; */
+}
+
+.about-medium {
+    background-color: white;
+    padding: 15px;
+    display: block;
+    margin: 5px;
+}
+
+.about-icon {
+    float:left;
+    margin: 15px;
+}
+
+.about-title {
+    text-decoration: underline;
+    font-size: 20px;
+    color: var(--darkteal);
+}
+
+.profile a{
+    color: var(--darkpeach);
+    text-decoration: none;
+}
+
+.pfp {
+    opacity: .4;
+    z-index: -1;
+}
+
+.socials {
+    text-align: center;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    border: none;
+    margin: 8px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.fb {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1384/1384037.png');
+}
+
+.twt {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1384/1384049.png');
+}
+
+.steam {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3/3782.png');
+}
+
+.da {
+    background-image: url('https://cdn-icons.flaticon.com/png/512/3992/premium/3992605.png?token=exp=1654550310~hmac=bee6a3c58acf7ffdcc2b1b5871be1b75');
+}
+
+.git {
+    background-image: url('https://cdn-icons.flaticon.com/png/512/3291/premium/3291695.png?token=exp=1654550579~hmac=22b516c01aa5a7a58f6b1a87c0a94c6e');
+}
+/* 
+.about-more {
+    background-color: rgb(179, 166, 97);
+    width: 100%;
+} */

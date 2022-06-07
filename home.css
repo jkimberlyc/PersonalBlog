@@ -1,0 +1,51 @@
+:root {
+    --peach: #FFC2B4;
+    --darkpeach: #FF8882;
+    --teal: #9DBEB9;
+    --darkteal: #194350;
+    --sand: #f0eeeb;
+}
+
+.content {
+    overflow-y: hidden;
+}
+
+.home-header {
+    background-color: var(--sand);
+    text-align: left;
+    padding: 100px 250px;
+}
+
+.home-name {
+    font-size: 100px;
+    color: var(--darkpeach);
+    padding: 0 20px;
+    font-weight: bolder;
+    /* text-shadow: 0 0 2px var(--darkteal), 0 0 2px var(--darkteal), 0 0 2px var(--darkteal), 0 0 2px var(--darkteal); */
+}
+
+.home-name:hover {
+    color: rgb(179, 166, 97);
+}
+
+.home-right {
+    float: right;
+    padding: 0px 250px;
+
+}
+
+.home-right a {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.home-right a:hover{
+    background-color: var(--darkteal);
+    color: var(--sand);
+    transition: 0.3s ease;
+}
+
+.home-right a{
+    color: var(--darkteal);
+}
+

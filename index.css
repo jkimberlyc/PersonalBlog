@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+    --peach: #FFC2B4;
+    --darkpeach: #FF8882;
+    --teal: #9DBEB9;
+    --darkteal: #194350;
+    --sand: #f0eeeb;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--sand);
+    /* text-align: center; */
+}
+
+.topnav {
+    background-color: white;
+    top: 0;
+    position: sticky;
+    padding-left: 250px;
+    padding-right: 250px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.topnav a {
+    float: left;
+    color: var(--darkteal);
+    text-align: center;
+    padding: 32px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 1000;
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+.topnav-right {
+    float: right;
+    padding: 0;
+    top: 0;
+}
+
+.topnav-right li {
+    list-style-type: none;
+    float: left;
+}
+
+.topnav-right a {
+    color: tomato;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    /* text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black; */
+}
+
+.topnav-right a:hover {
+    color: rgb(179, 166, 97);
+    transition: 0.3s linear;
+}
+
+.header {
+    background-color: var(--darkteal);
+    width: 100%;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--darkteal);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+a.active {
+    color: var(--darkteal);
+}
+
+.content {
+    position: relative;
+    min-height: 100vh;
+}
+
+.main-content {
+    padding-bottom: 200px;
+}
+
+.header-content{
+    text-align: center;
+    padding: 100px 0;
+    color: var(--darkteal);
+}
+
+.blog-name{
+    font-size: 100px;
+    color: var(--sand);
+    padding: 0 20px;
+    /* text-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white; */
+}
+
+.footer-table {
+    /* text-align: center; */
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.footer-table th {
+    color: var(--teal);
+    font-size: 18px;
+    text-align: left;
+    padding: 0 80px;
+}
+
+.footer-table td {
+    padding: 0 80px;
+}
+
+.footer-details {
+    font-size: small;
+    color: var(--sand);
+    padding: 10px 0;
+    text-align: left;
+    line-height: 30px;
+}
+
+.explore-list {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    /* padding-left: 44%; */
+}
+
+footer a {
+    font-size: small;
+    color: var(--sand);
+}
+
