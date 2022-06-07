@@ -120,11 +120,11 @@ body {
 }
 
 .da {
-    background-image: url('https://cdn-icons.flaticon.com/png/512/3992/premium/3992605.png?token=exp=1654550310~hmac=bee6a3c58acf7ffdcc2b1b5871be1b75');
+    background-image: url('images/deviantart.png');
 }
 
 .git {
-    background-image: url('https://cdn-icons.flaticon.com/png/512/3291/premium/3291695.png?token=exp=1654550579~hmac=22b516c01aa5a7a58f6b1a87c0a94c6e');
+    background-image: url('images/github.png');
 }
 /* 
 .about-more {
